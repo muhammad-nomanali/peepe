@@ -195,7 +195,7 @@ html body section {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("./images/8.=png");
+    background-image: url("./images/about_section_bg.webp");
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -536,10 +536,9 @@ html body section {
     position: absolute;
     width: 100px;
     height: 10px;
-    background-color: #ccc;
-    border-radius: 5px;
     overflow: hidden;
     opacity: 0;
+    border: 4px solid black;
     /* Set initial opacity to 0 */
     transform: translateY(20px);
     /* Move initially below the view */
@@ -712,34 +711,9 @@ padding-bottom: 100px;
     text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
   }
   #token{
-    width: 100%;
-    height: 100%;
-    --color: rgba(0, 115, 19, 0.3);
-    background-color: #191a1a;
-    background-image: linear-gradient(
-        180deg,
-        transparent 24%,
-        var(--color) 25%,
-        var(--color) 26%,
-        transparent 27%,
-        transparent 74%,
-        var(--color) 75%,
-        var(--color) 76%,
-        transparent 77%,
-        transparent
-      ),
-      linear-gradient(
-        45deg,
-        transparent 24%,
-        var(--color) 35%,
-        var(--color) 26%,
-        transparent 17%,
-        transparent 74%,
-        var(--color) 75%,
-        var(--color) 76%,
-        transparent 77%,
-        transparent
-      );
-    background-size: 55px 55px;
+   background-image: url(./images/howtobuy_section_bg.webp);
+   background-position: center;
+   background-repeat: none;
+   background-size: cover;
   }
   
