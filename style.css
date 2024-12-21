@@ -652,7 +652,7 @@ padding-bottom: 100px;
 }
 .cards {
     width: 300px;
-    height: 120px;
+    height: 145px;
     padding: 0.5rem;
     background: rgba(198, 198, 198, 0.34);
     border-radius: 8px;
@@ -665,7 +665,9 @@ padding-bottom: 100px;
     overflow: hidden;
     color: white;
   }
-  
+  .cards p{
+    padding-top: 30px;
+  }
   .cards:hover {
     height: 254px;
     transform: skew(0deg);
