@@ -718,4 +718,41 @@ padding-bottom: 100px;
    background-repeat: none;
    background-size: cover;
   }
+  /* media query */
+  .chart-section{
+    display: none;
+  }
+/* mediA Query */
+@media screen and (max-width: 600px) {
+    .mark{
+        display: none;
+    }
+    .chart-section{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      display: block;
+    }
+   .image1 {
+      width:80%;
+      margin: 0 auto;
+    }
+   .image1 img {
+      width:100% !important;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .chart-section{
+      padding-bottom: 60px;
+    }
+    .image1 {
+      width:60%;
+      margin: 0 auto;
+    }
+   .image1 img {
+      width:100% !important;
+    }
+    
+  }
   
